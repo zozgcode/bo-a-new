@@ -6,8 +6,8 @@ import ProtectedRoute from "@/components/ProtectedRoute";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: "Credit Cards, Bank, and Loans - Personal and Business",
+  description: "Credit Cards, Bank, and Loans - Personal and Business",
 };
 
 export default function RootLayout({
