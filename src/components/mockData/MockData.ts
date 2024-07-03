@@ -232,7 +232,7 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: "343r4",
-        dateTime: "April 12, 2019, 10:45:00 am",
+        dateTime: "April 12, 2023, 10:45:00 am",
         description: "Walmart",
         status: "Success",
         amount_usd: -4000.0,
