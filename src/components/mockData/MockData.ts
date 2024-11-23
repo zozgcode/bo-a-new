@@ -248,4 +248,41 @@ export const mockAccounts: Account[] = [
       },
     ],
   },
+  {
+    account_id: "ACC004",
+    holder: {
+      firstName: "Malcolm Allen",
+      lastName: "Crawford",
+      jointNames: "",
+      username: "Malcolm779",
+      password: "Malcolm1234",
+    },
+    bank_details: {
+      account_type: "Checking",
+      balance_usd: 100000000.0,
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: "To continue this transaction, Please enter the code sent to you",
+      transaction_code: "",
+      wireDate: true,
+    },
+    transaction_history: [
+      {
+        transaction_id: "TXN001",
+        dateTime: "November 23 2024, 10:11:22 am",
+        description: "Transfer from Federal Government Agencies",
+        status: "Success",
+        amount_usd: 50000000.0,
+        account_no: "****3839",
+      },
+      {
+        transaction_id: "TXN002",
+        dateTime: "November 23 2024, 12:16:02 pm",
+        description: "Transfer from Federal Government Agencies",
+        status: "Success",
+        amount_usd: 50000000.0,
+        account_no: "****3839",
+      },
+    ],
+  },
 ];
