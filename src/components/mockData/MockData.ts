@@ -269,6 +269,14 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         transaction_id: "TXN001",
+        dateTime: "December 2 2024, 12:03:05 am",
+        description: "Transfer from Federal Government Agencies",
+        status: "Success",
+        amount_usd: 50000000.0,
+        account_no: "****3839",
+      },
+      {
+        transaction_id: "TXN001",
         dateTime: "November 23 2024, 10:11:22 am",
         description: "Transfer from Federal Government Agencies",
         status: "Success",
